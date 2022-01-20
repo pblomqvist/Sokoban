@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    min-width: 150px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+
+#container {
+    display: grid;
+    max-width: 900px;
+    padding: 2px;
+}
+
+#displayWin {
+    position: absolute;
+    display:none;
+    text-align: center;
+}
+
+#winMessage {
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+    padding-bottom:0;
+}
+
+.block {
+    background: pink;
+    width: 25px;
+    height: 25px;
+    border: solid 1px;
+    float: left;
+}
+
+.W, .tile-wall {
+    background: rgb(94, 61, 61);
+}
+
+.B, .entity-block {
+    background: rgb(146, 116, 255);
+}
+
+.G, .tile-goal {
+    background: skyblue;
+}
+
+.entity-block-goal {
+    background: rgb(255, 208, 0);
+}
+
+.entity-player {
+    background: red;
+}
